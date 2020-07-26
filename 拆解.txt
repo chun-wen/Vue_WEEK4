@@ -1,0 +1,27 @@
+ 登入
+ - AJAX 驗證
+ - 存cookie
+ 取得遠端資料
+ - 讀cookie
+新增/刪除/編輯 modal
+新增modal
+ - modal元件匯入
+ - 定義資料結構
+ - 儲存
+ - 重新取得列表資料 
+ - 關閉modal
+
+編輯modal
+ - modal元件
+ - 取得單一筆資料
+ - 儲存編輯
+ - 重新取得列表資料 
+ - 關閉modal
+
+ 實作注意事項
+ 1.API 方法允許與否 405
+ EX: 取得產品所有產品列表API不能使用POST
+ 2.傳入內容格式錯誤 422
+ imageUrl是陣列
+ 3.emit事件不支援camelCase寫法！！！！
+ 所以勁量用小寫來代替

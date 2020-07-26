@@ -1,0 +1,15 @@
+html,
+body {
+    height: 100vh;
+    text-align: center;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-sign{
+    max-width: 330px;
+    margin: auto;
+}
