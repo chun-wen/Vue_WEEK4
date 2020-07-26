@@ -20,7 +20,7 @@ new Vue({
                 let token = response.data.token;
                 //this.token = token;
                 document.cookie = `hexToken=${token}; expires=${new Date(expired * 1000)}; path=/`;
-                window.location='/product.html';
+                window.location='./product.html';
                 // this.getProducts();
                 
             })
